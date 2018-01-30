@@ -33,7 +33,7 @@ onSearchChange = (event) => {
 			<div className="tc">
 				<h1 className="f2">Robofriends</h1>
 				<SearchBox searchChange={this.onSearchChange} />
-					<CardList robots={filteredRobots} />
+				<CardList robots={filteredRobots} />
 			</div>
 		);
 	}
